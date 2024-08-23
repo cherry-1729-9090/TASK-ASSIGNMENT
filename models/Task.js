@@ -38,7 +38,7 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false,
         },
     }, {
-        timestamps: true,  // This will automatically add `createdAt` and `updatedAt` fields
+        timestamps: true,  
     });
 
     return Task;
